@@ -60,7 +60,8 @@ export default function Hero() {
             className="relative"
           >
             <Image
-              src="/profile.png"
+              src="/profile.png" 
+              
               alt="Raiyan Zannat"
               width={500}
               height={600}
