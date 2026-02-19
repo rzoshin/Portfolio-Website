@@ -21,7 +21,7 @@ export default function Projects() {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden"
           >
-            <div className="relative w-full h-125">
+            <div className="relative w-full h-120">
               <Image
                 src="/projects/techwave.png"
                 alt="TechWave Project"
@@ -60,7 +60,7 @@ export default function Projects() {
             transition={{ duration: 0.3 }}
             className="bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden"
           >
-            <div className="relative w-full h-125">
+            <div className="relative w-full h-120">
               <Image
                 src="/projects/justice.png"
                 alt="Justice Legal Website Project"
@@ -83,6 +83,45 @@ export default function Projects() {
 
               <a
                 href="https://rzoshin.github.io/tailwind-css/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-neutral-900 text-white px-8 py-3 rounded-md text-lg hover:bg-neutral-800 transition"
+              >
+                View Live Demo
+              </a>
+            </div>
+          </motion.div>
+
+          {/* ================= PROJECT 3 ================= */}
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            transition={{ duration: 0.3 }}
+            className="bg-white rounded-xl border border-neutral-200 shadow-sm overflow-hidden"
+          >
+            <div className="relative w-full h-120">
+              <Image
+                src="/projects/fitness.png"
+                alt="Fitness Tracker Website Project"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className="p-12 space-y-6 text-center">
+              <h3 className="text-3xl font-semibold">
+                Fitness Tracker — Fitness & Workout Landing Page
+              </h3>
+
+              <p className="text-xl text-neutral-700 leading-relaxed max-w-3xl mx-auto">
+                Fitness Tracker is a modern fitness landing page designed to promote 
+                workout programs, video tutorials, and healthy lifestyle services 
+                through an engaging web interface. The project focuses on strong 
+                visual hierarchy, bold typography, and motivational call-to-action 
+                sections tailored for fitness platforms.
+              </p>
+
+              <a
+                href="https://rzoshin.github.io/Fitness-Tracker/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-neutral-900 text-white px-8 py-3 rounded-md text-lg hover:bg-neutral-800 transition"
